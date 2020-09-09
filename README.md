@@ -28,7 +28,9 @@ README.md
    * Screenshots are provided in the `images folder`.
 
 ## Link to the deployed website
-https://mazzeiroman.github.io/index.html
+https://mazzeiroman.github.io/index.htmlgit 
+
+![](images/home-desktop.JPG)
 
 ## Credits
 
