@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-image: url("https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?cs=srgb&dl=pexels-jessica-lewis-593322.jpg&fm=jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
+  
+
+.textarea{
+    background-color: #ffffffcb;
+      }
+
+.title  {
+    /* background-color: #ffffffcb;  */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+}
+
+.ppic {
+    border-image-width: auto;
+    height: 280px;
+    width: 280px;
+}
+
+.spread{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+}
+
+.icons {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: all .2s ease-in-out; 
+}
+
+.icons a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 40px;
+    /* background-color: darkgoldenrod; */
+    border-width: 1px;
+    border-style: solid;
+    /* border-color: darkgoldenrod; */
+}
+.github {
+    background-color: rgba(128, 0, 128, 0.507);
+}
+.linkedin {
+    background-color: rgba(65, 105, 225, 0.486);
+}
+.curriculum {
+    background-color: rgba(46, 139, 86, 0.479);
+}
+/* .grow { 
+    transition: all .2s ease-in-out; 
+    }
+     */
+    .icons a:hover { 
+    transform: scale(1.1); 
+    }

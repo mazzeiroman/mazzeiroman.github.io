@@ -8,19 +8,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-     <!-- Title -->
+    <!-- CSS Style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts and icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Title -->
     <title>Roman Mazzei</title>
-
-    <!-- background color CSS -->
-    <style> body {
-      background-color: #cecece;
-      }
-    </style>  
 
   </head>
   <body>
 <!-- Nav var in the header tag -->
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="index.html">Roman Mazzei</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,51 +44,67 @@
     </header>
  <!-- space line between the header and the body -->
       <br>
+ <!-- Social media icons -->
+      <div class="icons">
+        <a href="https://github.com/mazzeiroman" class="github">
+          <i class="fab fa-github-alt"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/romanmazzei/" class="linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="./images/rmazzei.pdf" download="curriculum" class="curriculum">
+          <i class="fas fa-file-download"></i>
+        </a>
+      </div>
 
   <!-- container -->
-    <div class="container">
+    <div class="container textarea">
       <div class="row">
         <div class="col-md-12">  
           <!-- Background image  -->
-          <div class="view" style="background-image: url('https://getdrawings.com/vectors/net-vector-25.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+          <!-- <div class="view" style="background-image: src('./images/roman.PNG'); background-repeat: no-repeat; background-size: cover; background-position: center center;"> -->
             <!-- Mask & flexbox options-->
             <div class="mask rgba-black-light align-items-center">
              <!-- getting more height to the row qith the profile picture -->
-                   <br><br><br><br><br>
+                   <br>
 
               <div class="row">
                 <div class="col-md-3">
-                  <img src="./images/roman.jpg" class="rounded-circle mx-auto d-block" alt="profile-picture">
+                  <img src="./images/roman.jpg" class="rounded-circle mx-auto d-block ppic" alt="profile-picture">
+                  <br>
                 </div>
-                <div class="col-md-9">
-                  <h1>Hi, I'm Roman Mazzei</h1>
-                  <p>A fullstack Web developement student</p>
+                <div class="col-md-9 title">
+                  <h1> &lt Hi, I'm Roman Mazzei /&gt </h1>
+                  <div>
+                  <p>A fullstack Web developement student </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     </div>
 
     <br> 
+   
     <!-- container ABOUT ME -->
-    <div class="container">
+    <div class="container textarea">
       <br><br>
       <div class="row">
           <div class="col-md-12">
             <h2>About me</h2>
             <p>I'm a civil engineer from Venezuela, currently working as bartender, I speak  English, Spanish and some French, I’m trying to get my degree validated in the United States 
               and this year 2020 I realized a lot can change in a course of weeks, so I decided to start working towards transforming my career into a more future oriented one.</p> 
-              <p>In the future programming is gonna be just common knowledge, and I have discovered that I’m passionate about it, so becoming a “full stack we developer” and getting into the 
-              Coding Bootcamp at Penn LPS was my way to start, as an Engineer student I had some contact with some programming and the basics, always found it interesting how similar is to tackle a written code and a structural of a building.</p>
-              <p>I always try to keep learning, I love languages and traveling, as a Web Developer there’s a chance that you might work from anywhere in the world. I try to solve problems 
-              looking for logical steps and it's always easier when you have a structure to follow. Programming unifies some of my skills and hobbies, so I’m really excited to start this new stage in my life.</p>
+              <p>In the future programming is gonna be just common knowledge, and I have discovered that I’m passionate about it, so becoming a “full stack web developer” and getting into the 
+              Coding Bootcamp at Penn LPS was my way to start, as an Engineer student I had some contact with some basic programming, and I have found it interesting how similar it is to tackle written code and the structural design of a building.
+              I try to solve problems looking for logical steps and it's always easier when you have a structure to follow</p>
+              <p>I always try to keep learning, I love languages and traveling, as a Web Developer there’s a chance that you might work from anywhere in the world. Programming unifies some of my skills and hobbies, so I’m really excited to start this new stage in my life.</p>
           </div>
       </div>
     </div>
     <!-- container MY SKILLS -->
-    <div class="container">
+    <div class="container textarea">
     <br><br>
       <div class="row">
         <div class="col-md-12">
@@ -98,33 +113,71 @@
             </section>
         </div>
       </div>
+      <br>
     <!--  row inside a col -->
     <!-- Constant Learning -->
-      <div class="row">
-            <div class="col-md-3" >
+      <div class="row spread">
+
+        <div class="card text-dark border-warning mb-3" style="max-width: 15rem;">
+          <div class="card-header">Constant learning</div>
+          <div class="card-body text-dark">
+            <!-- <h5 class="card-title">Dark card title</h5> -->
+            <p class="card-text">Learning is essential to success in your personal life and your work life.
+              And since coding is always changing and evolving it is essential to keep learning new technologies to advance in the field.</p>
+          </div>
+        </div>
+
+            <!-- <div class="col-md-3 bg-secondary text-white" >
                <h3 class="mb-2 bg-secondary text-white">Constant learning</h3>
                <p class="p-3 mb-2 bg-secondary text-white">Learning is essential to success in your personal life and your work life.
                  And since coding is always changing and evolving it is essential to keep learning new technologies to advance in the field.
                </p>
-            </div>
+            </div> -->
     <!-- Problem Solving -->
-            <div class="col-md-3">
+    <div class="card text-dark border-warning mb-3" style="max-width: 15rem;">
+      <div class="card-header">Problem Solving</div>
+      <div class="card-body text-dark">
+        <!-- <h5 class="card-title">Dark card title</h5> -->
+        <p class="card-text">Being a confident problem solver is really important to your success.
+          I am always trying to find solutions to problems through genereating alternatives and evaluating them, to detect different paths towards better results.</p>
+      </div>
+    </div>
+
+            <!-- <div class="col-md-3  bg-light text-dark">
                <h3 class="mb-2 bg-light text-dark">Problem Solving</h3>
                <p class="p-3 mb-2 bg-light text-dark">Being a confident problem solver is really important to your success.
                  I am always trying to find solutions to problems through genereating alternatives and evaluating them, to detect different paths towards better results.</p>
-            </div>
+            </div> -->
     <!--  Multilingual-->
-            <div class="col-md-3">
+    <div class="card text-dark border-warning mb-3" style="max-width: 15rem;">
+      <div class="card-header">Multilingual</div>
+      <div class="card-body text-dark">
+        <!-- <h5 class="card-title">Dark card title</h5> -->
+        <p class="card-text">Being multilingual actually changes your brain structure, and this can help you in multiple ways.
+          It improves your memory, helps you process information better, and helps with multitasking skills. </p>
+      </div>
+    </div>   
+
+            <!-- <div class="col-md-3 bg-secondary text-white">
               <h3 class="mb-2 bg-secondary text-white">Multilingual</h3>
               <p class="p-3 mb-2 bg-secondary text-white">Being multilingual actually changes your brain structure, and this can help you in multiple ways.
                  It improves your memory, helps you process information better, and helps with multitasking skills. </p>
-            </div>
+            </div> -->
     <!-- Analytical thinking   -->
-            <div class="col-md-3">
+    <div class="card text-dark border-warning mb-3" style="max-width: 15rem;">
+    <div class="card-header">Analytical thinking</div>
+    <div class="card-body text-dark">
+      <!-- <h5 class="card-title">Dark card title</h5> -->
+      <p class="card-text">Working with structural design taught me how to use the step-by-step approach to thinking, and that allows me to break 
+        down complex problems into single and manageable components with easier solutions.</p>
+    </div>
+  </div>   
+    
+            <!-- <div class="col-md-3  bg-light text-dark">
               <h3 class="mb-2 bg-light text-dark">Analytical thinking </h3>
               <p class="p-3 mb-2 bg-light text-dark"> Working with structural design taught me how to use the step-by-step approach to thinking, and that allows me to break 
                 down complex problems into single and manageable components with easier solutions.</p>
-            </div>
+            </div> -->
 
       </div>
     </div>
