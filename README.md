@@ -1,6 +1,6 @@
 # mazzeiroman.github.io
 ## Link to the deployed website
-hhttps://mazzeiroman.github.io/
+https://mazzeiroman.github.io/
 
 # Roman Mazzei Portfolio
 This portfolio is a website to promote my work as a full stack web developement student in the coding bootcamp at Penn LPS, a collection of work samples that shows my capabilities to any prospective employer. 
