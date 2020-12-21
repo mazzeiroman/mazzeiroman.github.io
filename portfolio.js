@@ -36,28 +36,28 @@ let portfolio = [
     },
     {
         name: "Team-generator",
-        img: "./images/weather.jpg",
+        img: "./images/team.jpg",
         description: "This application was created using node.JS and allows the user to generate a professional HTML file after answering a few questions/prompts using the console.",
         repo: "https://github.com/mazzeiroman/team-generator",
         deployed: "https://drive.google.com/file/d/1w67HImkFGj4f2AtNqlJlm6b9yVuoROn5/view"
     },
     {
         name: "Eat-da-burger",
-        img: "./images/weather.jpg",
+        img: "./images/eatdaburg.jpg",
         description: "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate HTML.",
         repo: "https://github.com/mazzeiroman/eat-da-burger",
         deployed: "https://mighty-basin-34115.herokuapp.com/"
     },
     {
         name: "Employee-tracker",
-        img: "./images/weather.jpg",
+        img: "./images/employee.jpg",
         description: "This application was created using node.JS and MySQL allows the user to generate, view and manage the departments, roles, and employees in a company.",
         repo: "https://github.com/mazzeiroman/employee-tracker",
         deployed: "https://drive.google.com/file/d/1KUuQIrWXG5VOb6ojj2jK6YCjk3Lc_p00/view"
     },
     {
         name: "README-GENERATOR",
-        img: "./images/weather.jpg",
+        img: "./images/readme.jpg",
         description: "A simple application that allows the user to create a a high-quality, professional README.md answering a few questions using the terminal or console. This allows the project creator to devote more time working on the project.",
         repo: "https://github.com/mazzeiroman/README-GENERATOR",
         deployed: "https://drive.google.com/file/d/1mJu0J4XZoFvBORfSU61gKcUDyT5Ph9JT/view?usp=sharing"

@@ -29,7 +29,7 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: double 0.3em transparent;
+    border: double 0.2em transparent;
     background-image: linear-gradient(white, white), 
     linear-gradient(to right, rgb(83, 137, 255), rgb(255, 255, 255));
     background-origin: border-box;
