@@ -36,11 +36,11 @@ README.md
 
 ## Credits
 
-© 2020 Roman Mazzei.
+© 2022 Roman Mazzei.
 
 ## license
 
-Copyright © 2020 Roman Mazzei
+Copyright © 2022 Roman Mazzei
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
